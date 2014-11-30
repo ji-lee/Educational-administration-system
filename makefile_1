@@ -1,0 +1,28 @@
+main:main.o admin.o student.o teacher.o fun.o login.o tea_link.o stu_link.o show_all_stu_message.o change_stu_message.o change_tea_message.o
+	gcc $^ -o $@ -g -rdynamic
+
+main.o:main.c
+	gcc -c $^ -o $@ -g -rdynamic
+admin.o:admin.c 
+	gcc -c $^ -o $@ -g -rdynamic
+student.o:student.c 
+	gcc -c $^ -o $@ -g -rdynamic
+teacher.o:teacher.c 
+	gcc -c $^ -o $@ -g -rdynamic
+fun.o:fun.c 
+	gcc -c $^ -o $@ -g -rdynamic
+login.o:login.c 
+	gcc -c $^ -o $@ -g -rdynamic
+tea_link.o:tea_link.c
+	gcc -c $^ -o $@ -g -rdynamic
+stu_link.o:stu_link.c
+	gcc -c $^ -o $@ -g -rdynamic
+show_all_stu_message.o:show_all_stu_message.c
+	gcc -c $^ -o $@ -g -rdynamic
+change_stu_message.o:change_stu_message.c
+	gcc -c $^ -o $@ -g -rdynamic
+change_tea_message.o:change_tea_message.c
+	gcc -c $^ -o $@ -g -rdynamic
+
+clean:
+	rm -rvf main main.o admin.o student.o teacher.o fun.o login.o tea_link.o stu_link.o show_all_message.o change_stu_message.o change_tea_message.o

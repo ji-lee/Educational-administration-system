@@ -1,0 +1,144 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADMIN	admin.h	/^}ADMIN;$/;"	t	typeref:struct:__anon1
+ADMIN_H	admin.h	2;"	d
+CC	makefile	/^CC:=gcc$/;"	m
+CHANGE_STU_MESSAGE_H	change_stu_message.h	2;"	d
+CHANGE_TEA_MESSAGE_H	change_tea_message.h	2;"	d
+CHAR_MODE_START	fun.h	33;"	d
+CHAR_MODE_STOP	fun.h	34;"	d
+FOUND	fun.h	13;"	d
+LINK_H	link.h	2;"	d
+LOGIN_H	login.h	2;"	d
+MAIN	makefile	/^MAIN:=main$/;"	m
+MARK_NO_SELECT	fun.h	9;"	d
+MARK_SELECT	fun.h	8;"	d
+NAME_MAX	fun.h	15;"	d
+NOT_FOUND	fun.h	12;"	d
+OBJECT	makefile	/^OBJECT:=main.o admin.o student.o teacher.o fun.o login.o stu_link.o tea_link.o show_all_stu_message.o change_stu_message.o change_tea_message.o$/;"	m
+ONE	fun.h	11;"	d
+OPTION	makefile	/^OPTION:=-g -Wall -rdynamic$/;"	m
+PASSWD_MAX	fun.h	16;"	d
+SHOW_AD_LOGIN_MENU	fun.h	22;"	d
+SHOW_ALL_STU_MESSAGE_H	show_all_stu_message.h	2;"	d
+SHOW_ALL_STU_MESSAGE_MENU	fun.h	25;"	d
+SHOW_CHANGE_STU_MENU	fun.h	27;"	d
+SHOW_CHANGE_TEA_MENU	fun.h	26;"	d
+SHOW_LOGIN_MENU	fun.h	21;"	d
+SHOW_STU_LOGIN_MENU	fun.h	23;"	d
+SHOW_TEA_LOGIN_MENU	fun.h	24;"	d
+SORT_BY_CHINESE	link.h	59;"	d
+SORT_BY_C_PROGRAM	link.h	60;"	d
+SORT_BY_ID	link.h	56;"	d
+SORT_BY_MATH	link.h	58;"	d
+SORT_BY_TOTAL_SCORE	link.h	57;"	d
+STU	link.h	/^}STU;$/;"	t	typeref:struct:__anon2
+STUDENT_H	student.h	2;"	d
+STU_NODE	link.h	/^}STU_NODE, *STU_PNODE;$/;"	t	typeref:struct:node
+STU_PNODE	link.h	/^}STU_NODE, *STU_PNODE;$/;"	t	typeref:struct:node
+SUBJECT_MAX	fun.h	17;"	d
+TEA	link.h	/^}TEA;$/;"	t	typeref:struct:__anon3
+TEACHER_H	teacher.h	2;"	d
+TEA_LINK	link.h	/^}TEA_LINK, *TEA_PLINK;$/;"	t	typeref:struct:link
+TEA_PLINK	link.h	/^}TEA_LINK, *TEA_PLINK;$/;"	t	typeref:struct:link
+add_stu_message	teacher.c	/^void add_stu_message(TEA_PLINK tea_head, STU_PNODE stu_head)$/;"	f
+add_tea_message	admin.c	/^void add_tea_message(TEA_PLINK tea_head)$/;"	f
+admin	admin.c	/^void admin(STU_PNODE stu_head, TEA_PLINK tea_head)$/;"	f
+age	link.h	/^	int age;$/;"	m	struct:__anon2
+age	link.h	/^	int age;$/;"	m	struct:__anon3
+bubble_sort_tea	tea_link.c	/^void bubble_sort_tea(TEA_PLINK tea_head)$/;"	f
+c_program_score	link.h	/^	float c_program_score;$/;"	m	struct:__anon2
+change_ad_name	admin.c	/^void change_ad_name(ADMIN admin)$/;"	f
+change_ad_passwd	admin.c	/^void change_ad_passwd(ADMIN admin)$/;"	f
+change_score	change_stu_message.c	/^void change_score(STU_PNODE stu_head)$/;"	f
+change_stu_age	change_stu_message.c	/^void change_stu_age(STU_PNODE stu_head)$/;"	f
+change_stu_class_num	change_stu_message.c	/^void change_stu_class_num(STU_PNODE stu_head)$/;"	f
+change_stu_id	change_stu_message.c	/^void change_stu_id(STU_PNODE stu_head)$/;"	f
+change_stu_message	change_stu_message.c	/^void change_stu_message(STU_PNODE stu_head)$/;"	f
+change_stu_name	change_stu_message.c	/^void change_stu_name(STU_PNODE stu_head)$/;"	f
+change_stu_passwd	student.c	/^void change_stu_passwd(STU_PNODE stu_head)$/;"	f
+change_stu_score	teacher.c	/^void change_stu_score(TEA_PLINK tea_head, STU_PNODE stu_head)$/;"	f
+change_stu_sex	change_stu_message.c	/^void change_stu_sex(STU_PNODE stu_head)$/;"	f
+change_tea_age	change_tea_message.c	/^void change_tea_age(TEA_PLINK tea_head)$/;"	f
+change_tea_id	change_tea_message.c	/^void change_tea_id(TEA_PLINK tea_head)$/;"	f
+change_tea_message	change_tea_message.c	/^void change_tea_message(TEA_PLINK tea_head)$/;"	f
+change_tea_name	change_tea_message.c	/^void change_tea_name(TEA_PLINK tea_head)$/;"	f
+change_tea_passwd	teacher.c	/^void change_tea_passwd(TEA_PLINK tea_head)$/;"	f
+change_tea_sex	change_tea_message.c	/^void change_tea_sex(TEA_PLINK tea_head)$/;"	f
+change_tea_subject	change_tea_message.c	/^void change_tea_subject(TEA_PLINK tea_head)$/;"	f
+chinese_score	link.h	/^	float chinese_score;$/;"	m	struct:__anon2
+class_num	link.h	/^	int class_num;$/;"	m	struct:__anon2
+create_stu_node	stu_link.c	/^STU_PNODE create_stu_node(STU stu_data)$/;"	f
+create_tea_node	tea_link.c	/^TEA_PLINK create_tea_node(TEA tea_data)$/;"	f
+delete_stu_node	stu_link.c	/^void delete_stu_node(STU_PNODE stu_head)$/;"	f
+delete_student	teacher.c	/^void delete_student(TEA_PLINK tea_head, STU_PNODE stu_head)$/;"	f
+delete_tea_message	admin.c	/^void delete_tea_message(TEA_PLINK tea_head)$/;"	f
+delete_tea_node	tea_link.c	/^void delete_tea_node(TEA_PLINK tea_head)$/;"	f
+find_stu_message	teacher.c	/^void find_stu_message(STU_PNODE stu_head)$/;"	f
+find_stu_pre_node	stu_link.c	/^STU_PNODE find_stu_pre_node(STU_PNODE stu_head, int stu_id)$/;"	f
+find_tea_message	admin.c	/^void find_tea_message(TEA_PLINK tea_head)$/;"	f
+find_tea_pre_node	tea_link.c	/^TEA_PLINK find_tea_pre_node(TEA_PLINK tea_head, int tea_id)$/;"	f
+get_change_stu_command	change_stu_message.c	/^int get_change_stu_command(int xuan_xiang_ge_shu)$/;"	f
+get_command	fun.c	/^int get_command(int xuan_xiang_ge_shu)$/;"	f
+getch	fun.c	/^int getch()$/;"	f
+head_insert_stu_node	stu_link.c	/^void head_insert_stu_node(STU_PNODE stu_head, STU stu_data)$/;"	f
+head_insert_tea_node	tea_link.c	/^void head_insert_tea_node(TEA_PLINK tea_head, TEA tea_data)$/;"	f
+head_teacher	link.h	/^	char head_teacher[4];	$/;"	m	struct:__anon3
+id	link.h	/^	int id;$/;"	m	struct:__anon2
+id	link.h	/^	int id;$/;"	m	struct:__anon3
+init_stu_passwd	change_stu_message.c	/^void init_stu_passwd(STU_PNODE stu_head)$/;"	f
+init_tea_passwd	change_tea_message.c	/^void init_tea_passwd(TEA_PLINK tea_head)$/;"	f
+link	link.h	/^typedef struct link$/;"	s
+load_admin_data	admin.c	/^ADMIN load_admin_data()$/;"	f
+load_stu_data	login.c	/^STU_PNODE load_stu_data()$/;"	f
+load_tea_data	login.c	/^TEA_PLINK load_tea_data()$/;"	f
+login	login.c	/^void login()$/;"	f
+login_admin	admin.c	/^int login_admin()$/;"	f
+login_student	student.c	/^STU_PNODE login_student(STU_PNODE stu_head)$/;"	f
+login_teacher	teacher.c	/^TEA_PLINK login_teacher(TEA_PLINK tea_head)$/;"	f
+main	main.c	/^int main()$/;"	f
+math_score	link.h	/^	float math_score;$/;"	m	struct:__anon2
+mygets	fun.c	/^void mygets(char * str, int len)$/;"	f
+name	admin.h	/^	char name[NAME_MAX];$/;"	m	struct:__anon1
+name	link.h	/^	char name[NAME_MAX];$/;"	m	struct:__anon2
+name	link.h	/^	char name[NAME_MAX];$/;"	m	struct:__anon3
+next	link.h	/^	struct link *next;$/;"	m	struct:link	typeref:struct:link::link
+next	link.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+node	link.h	/^typedef struct node$/;"	s
+output_stu_node	stu_link.c	/^void output_stu_node(STU_PNODE stu_head)$/;"	f
+output_tea_node	tea_link.c	/^void output_tea_node(TEA_PLINK tea_head)$/;"	f
+passwd	admin.h	/^	char passwd[PASSWD_MAX];$/;"	m	struct:__anon1
+passwd	link.h	/^	char passwd[PASSWD_MAX];$/;"	m	struct:__anon2
+passwd	link.h	/^	char passwd[PASSWD_MAX];$/;"	m	struct:__anon3
+press_any_one	fun.c	/^void press_any_one()$/;"	f
+save_admin_data	admin.c	/^void save_admin_data(ADMIN admin)$/;"	f
+save_stu_data	login.c	/^void save_stu_data(STU_PNODE stu_head)$/;"	f
+save_tea_data	login.c	/^void save_tea_data(TEA_PLINK tea_head)$/;"	f
+sex	link.h	/^	char sex;$/;"	m	struct:__anon2
+sex	link.h	/^	char sex;$/;"	m	struct:__anon3
+show_ad_login_menu	admin.c	/^void show_ad_login_menu(int num)$/;"	f
+show_all_stu_message	show_all_stu_message.c	/^void show_all_stu_message(STU_PNODE stu_head)$/;"	f
+show_all_stu_message_menu	show_all_stu_message.c	/^void show_all_stu_message_menu(int num)$/;"	f
+show_all_tea_message	admin.c	/^void show_all_tea_message(TEA_PLINK tea_head)$/;"	f
+show_by_grade	show_all_stu_message.c	/^void show_by_grade(STU_PNODE stu_head)$/;"	f
+show_by_id	show_all_stu_message.c	/^void show_by_id(STU_PNODE stu_head)$/;"	f
+show_by_one_score	show_all_stu_message.c	/^void show_by_one_score(STU_PNODE stu_head)$/;"	f
+show_by_total_score	show_all_stu_message.c	/^void show_by_total_score(STU_PNODE stu_head)$/;"	f
+show_change_stu_menu	change_stu_message.c	/^void show_change_stu_menu(int num)$/;"	f
+show_change_tea_menu	change_tea_message.c	/^void show_change_tea_menu(int num)$/;"	f
+show_login_menu	login.c	/^void show_login_menu(int num)$/;"	f
+show_stu_login_menu	student.c	/^void show_stu_login_menu(int num)$/;"	f
+show_stu_message	student.c	/^void show_stu_message(STU_PNODE stu_head)$/;"	f
+show_tea_login_menu	teacher.c	/^void show_tea_login_menu(int num)$/;"	f
+show_tea_message	teacher.c	/^void show_tea_message(TEA_PLINK tea_head)$/;"	f
+stu_bubble_sort	stu_link.c	/^void stu_bubble_sort(STU_PNODE stu_head, int select)$/;"	f
+stu_data	link.h	/^	STU stu_data;$/;"	m	struct:node
+student	student.c	/^void student(STU_PNODE stu_head)$/;"	f
+subject	link.h	/^	char subject[SUBJECT_MAX];$/;"	m	struct:__anon3
+tea_data	link.h	/^	TEA tea_data;$/;"	m	struct:link
+teacher	teacher.c	/^void teacher(STU_PNODE stu_head, TEA_PLINK tea_head)$/;"	f
+total_score	link.h	/^	float total_score;$/;"	m	struct:__anon2
